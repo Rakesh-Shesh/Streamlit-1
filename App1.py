@@ -10,10 +10,6 @@ from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from xgboost import XGBRegressor
 from sklearn.neighbors import KNeighborsRegressor
-from statsmodels.tsa.arima.model import ARIMA
-from statsmodels.tsa.statespace.sarimax import SARIMAX
-from statsmodels.tsa.holtwinters import ExponentialSmoothing
-from statsmodels.tsa.vector_ar.var_model import VAR
 import DS1
 import CM2
 from sklearn.preprocessing import StandardScaler
