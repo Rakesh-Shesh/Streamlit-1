@@ -10,8 +10,6 @@ from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from xgboost import XGBRegressor
 from sklearn.neighbors import KNeighborsRegressor
-import DS1
-import CM2
 from sklearn.preprocessing import StandardScaler
 import plotly.express as px
 
