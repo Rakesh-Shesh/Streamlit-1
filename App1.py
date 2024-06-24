@@ -169,7 +169,7 @@ def ml_algorithms_page():
                             # Only implement Linear Regression
                             if algorithm == "Linear Regression":
                                 model = sklearn.linear_model.LinearRegression()
-
+                              
                                 model.fit(X, y)
                                 y_pred = model.predict(X)
 
