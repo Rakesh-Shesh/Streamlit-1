@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import plotly.graph_objects as go
-from sklearn.linear_model import LinearRegression
+import sklearn.linear_model
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.svm import SVR
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
@@ -168,7 +168,8 @@ def ml_algorithms_page():
 
                             # Only implement Linear Regression
                             if algorithm == "Linear Regression":
-                                model = LinearRegression()
+                                model = sklearn.linear_model.LinearRegression()
+
                                 model.fit(X, y)
                                 y_pred = model.predict(X)
 
