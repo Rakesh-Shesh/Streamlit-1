@@ -169,7 +169,7 @@ def ml_algorithms_page():
                             # Only implement Linear Regression
                             if algorithm == "Linear Regression":
                                 model = sklearn.linear_model.LinearRegression()
-                              
+
                                 model.fit(X, y)
                                 y_pred = model.predict(X)
 
@@ -405,7 +405,8 @@ def Trend_Insights_page():
 
 # Page navigation
 page = st.sidebar.radio("Select a page",
-                        ["Home", "Correlation", "ML Algorithms", "Descriptive Statistics", "Trend Insights","Simulation"])
+                        ["Home", "Correlation", "ML Algorithms", "Descriptive Statistics", "Trend Insights",
+                         "Simulation"])
 
 if page == "Home":
     home_page()
