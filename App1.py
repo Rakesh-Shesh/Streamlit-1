@@ -34,19 +34,7 @@ def parse_month_column(data):
 
 def home_page():
     st.title("Welcome to the Multi-Page Forecasting and Analysis Application")
-    st.write("""
-        This application provides tools for forecasting and analyzing cashflows for passenger and freight aircraft.
-
-        **Pages:**
-
-        - **Home**: Overview of the application.
-        - **Correlation**: Upload an Excel file and visualize the correlation matrix of numeric columns.
-        - **ML Algorithms**: Use various machine learning algorithms to predict or forecast values from uploaded data.
-        - **Descriptive Statistics**: Generate and display descriptive statistics for your data.
-        - **Trend Insights**: Generate and display Trends of the data metrics.
-
-        Use the sidebar to navigate between the pages.
-    """)
+    
 
 
 def correlation_page():
